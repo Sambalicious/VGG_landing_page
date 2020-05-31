@@ -4,6 +4,9 @@ import Internship from './Internship'
 import Tracks from './Tracks';
 import Introduction from './Introduction';
 import InternActivities from './InternActivities';
+import InternshipTracks from './InternshipTracks';
+import Instructors from './Instructors';
+import Footer from './Footer';
 
 
 const LandingPage = () => {
@@ -13,7 +16,9 @@ const LandingPage = () => {
             <Introduction />
             <Internship />
             <InternActivities />
-            <Tracks />
+            <InternshipTracks />
+            <Instructors />
+            <Footer />
         </div>
     )
 }
