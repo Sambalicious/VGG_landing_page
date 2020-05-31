@@ -93,6 +93,7 @@
 }
 .intro-text>div{
     letter-spacing: 0.175rem;
+    padding: 2rem;
 }
 .small{
     display: none;
@@ -126,9 +127,11 @@
         display: flex;
         flex-direction: column-reverse!important;
         justify-content: center;
+        padding: 2rem;
     }
     .intro-text>div{
         text-align: center;
+        padding:2rem;
     }
     .small{
         display: initial;
@@ -153,8 +156,9 @@
 @media screen and (max-width:650px){
     intro-text>div{
         letter-spacing: normal;
+        padding: 2rem;
     }
-    .intro{
+ .intro{
         padding: 60px 0px 80px;
     }
     

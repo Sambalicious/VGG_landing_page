@@ -3,7 +3,7 @@ import React from 'react'
 const InternActivities = () => {
     return (
         <div>
-             <div className="activities">
+             <div className="activities mx-sm-auto px-sm-auto">
         <div>
             <div className="row activies-row">
                 <div className="col-lg-6">
