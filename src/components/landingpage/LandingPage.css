@@ -179,7 +179,7 @@ p.text-monospace{
     margin-top: -100px;
 }
 .media{
-    border: 1px solid #E0E0E0;
+    border: 2px solid rgba(255, 255, 255, 0.3);
     box-sizing: border-box;
     border-radius: 5px;
 }

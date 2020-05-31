@@ -1,7 +1,6 @@
 import React from 'react'
 import Navbar from './Navbar';
 import Internship from './Internship'
-import Tracks from './Tracks';
 import Introduction from './Introduction';
 import InternActivities from './InternActivities';
 import InternshipTracks from './InternshipTracks';
