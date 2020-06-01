@@ -10,14 +10,14 @@ const InternActivities = () => {
                     <h2 className="learn-and-fun">You <span className="green">learn</span><br/> and have <span className="orange">fun</span></h2>
                 </div>
                 <div className="col-lg-6">
-                    <p className="pt-3 work-n-play">You know what they say about all work and <br/> no play. Well, we hold that to high esteem</p>
+                    <p className="pt-3 mb-4 work-n-play">You know what they say about all work and no play. Well, we hold that to high esteem</p>
                 </div>
             </div>
             <div className="row activities-row">
                 <div className="col-lg-6">
-                    <p className="mt-4 text-uppercase font-weight-bold text-monospace">Internship Activities</p>
+                    <p className="mt-4 text-uppercase font-weight-bold intern">Internship Activities</p>
                     <div>
-                        <div className="py-3 mb-3 media pl-xl-4 pr-xl-4 col-xl-10">
+                        <div className="py-3 mt-4 mb-3 media pl-xl-4 pr-xl-4 col-xl-10">
                             <img src="https://i.ibb.co/y640tkb/path224.png" className="mr-4 media-img" alt="learning"/>
                             <div className="media-body">
                               <h5 className="mb-2">Intense Learning Experience</h5>
