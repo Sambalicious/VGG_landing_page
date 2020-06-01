@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="row align-items-center">
             <div className="col-md-4">
                 <div>
-                <h3>Want to stay up-to-date with internship opening and what's new?</h3>
+                <h3>Want to stay <br/>up-to-date with internship opening and what's new?</h3>
                 <p>Subscribe. We don't spam</p>
                 </div>
             </div>
@@ -16,7 +16,7 @@ const Footer = () => {
             <div className="col-md-2"><button type="button" id="btn">Subscribe</button></div>
         </div>
     </div>
-    <div className="mt-40 bottom-half">
+    <div className="bottom-half">
         <div className="row">
             <div className="col-md-6">
                 <img className="mb-3" src="https://i.ibb.co/1GWLQdk/logo.png" style={{width:'186px', maxHeight:'35px'}} alt="logo"/>
@@ -30,7 +30,7 @@ const Footer = () => {
             <span className="mr-4">
             <div className="mt-4 col-md-6 social-mail">
                 <img src="https://i.ibb.co/d4QfZTQ/social-mail.png" alt="social-mail" border="0"/>
-                <small> vgg@venturegardengroup.com</small>
+                <small>vgg@venturegardengroup.com</small>
             </div>
             </span>
            <span>

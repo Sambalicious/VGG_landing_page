@@ -203,7 +203,7 @@ p.text-monospace{
     margin-top: -100px;
 }
 .media{
-    border: 1px solid #E0E0E0;
+    border: 2px solid rgba(255, 255, 255, 0.3);
     box-sizing: border-box;
     border-radius: 5px;
     
@@ -290,6 +290,10 @@ p.text-monospace{
     .work-n-play{
         font-size: 14px;
         margin-top: -10px;
+        font-weight: 500;
+        font-size: 18px;
+        letter-spacing: 0.01em;
+        line-height: 25px;
     }
 
     .learning-pics img{
@@ -397,12 +401,19 @@ footer{
 .bottom-half{
     padding-left: 125px;
     padding-right: 125px;
+    margin-top: 3rem;
 }
 .subscribe{
-    padding: 0 15.4vw;
+    padding: 0 10vw;
     position: absolute;
     top: -120px;
     width: 98vw;
+}
+
+.subscribe h3{
+    font-size: 27px;
+    font-weight: bold;
+    line-height: 33px;
 }
 .subscribe>div{
     background: linear-gradient(284.79deg, #81F281 5.46%, #4CB44C 69.39%);
@@ -432,10 +443,21 @@ footer{
     justify-content: flex-end;
     align-items: center;
 }
+.social-mail{
+    display: flex;
+    align-items: center;
+    margin-right: 45rem;
+    
+}
 .social img:not(:last-of-type){
     margin-right: 1em;
 }
-
+.footer-text{
+    font-size:14px;
+    letter-spacing: 0.01em;
+    line-height: 14px;
+    
+}
 @media screen and (max-width:650px){
 
     .subscribe{
@@ -454,7 +476,7 @@ footer{
     .bottom-half{
         padding-left: 20px;
         padding-right: 30px;
-        margin-top: 3rem;
+        margin-top: 4rem;
     }
 
     .bottom-half p{

@@ -15,7 +15,7 @@ const InternshipTracks = () => {
         />
         <InternshipTrackDetails
             options={'HTML,CSS, & ReactJS'}
-            tracks={'Frontend DEvelopment'}
+            tracks={'Frontend Development'}
             TrackId={2}
 
         />
