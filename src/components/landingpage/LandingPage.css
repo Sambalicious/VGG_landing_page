@@ -33,11 +33,14 @@
     padding: 1rem;
 }
 
-*/
+body{
+    font-family: 'Montserrat';
+}
 
 
 *{
     box-sizing: border-box;
+   
 }
 
 :root{
@@ -94,6 +97,7 @@
 .intro-text>div{
     letter-spacing: 0.175rem;
     padding: 2rem;
+    font-family: 'Montserrat';
 }
 .small{
     display: none;
@@ -175,6 +179,7 @@
     font-size: 56px;
     font-weight: 900;
     letter-spacing: 0.3rem;
+    font-family: 'Montserrat';
 }
 
 p.text-monospace{
@@ -184,9 +189,25 @@ p.text-monospace{
     margin-top: -100px;
 }
 .media{
-    border: 2px solid rgba(255, 255, 255, 0.3);
+    border: 1px solid #E0E0E0;
     box-sizing: border-box;
     border-radius: 5px;
+    
+}
+
+.media-body{
+    font-family: 'Montserrat';
+
+}
+.media-body h5{
+    font-weight: bold;
+    letter-spacing: 0.03em;
+    font-size: 16px;
+    font-style: normal;
+}
+
+.media-body p{
+    font-size: 14px;
 }
 
 .media-img{
@@ -241,13 +262,23 @@ p.text-monospace{
 
 @media screen and (max-width:650px){
     .activities{
-        padding: 10px 45px 10px;
+        padding: 10px 10px 15px ;
     }
     .col-lg-6.pix{
         margin-top: 16px;
     }
     .activities h2{
         margin-top: 1rem;
+        margin-bottom: 0px;
+       font-size: 48px;
+       font-weight: 900;
+       font-family: 'Montserrat';
+    }
+
+    .work-n-play{
+        font-size: 14px;
+        margin-top: 0px;
+        font-family: 'Montserrat';
     }
 
     .learning-pics img{
@@ -291,7 +322,7 @@ p.text-monospace{
 
 @media screen and (max-width:650px){
     .tracks {
-        padding: 30px 50px
+        padding: 30px 20px;
     }
 
     .tracks .green-text{
@@ -356,7 +387,7 @@ footer{
     padding: 30px 50px;
 }
 .subscribe #subcribe-input{
-    width: 100%;
+   
     padding: 15px 50px;
     border-radius: 42px;
     background: #81F281;
@@ -381,5 +412,39 @@ footer{
 }
 .social img:not(:last-of-type){
     margin-right: 1em;
+}
+
+@media screen and (max-width:650px){
+
+    .subscribe{
+       width: 100%;
+       margin-bottom: 8rem ;
+    }
+     .subscribe>div{
+        padding: 30px 15px
+    }
+
+    .subscribe h3{
+        font-size: 23px;
+    }
+    .bottom-half{
+        padding-left: 40px;
+        padding-right: 30px;
+        margin-top: 3rem;
+    }
+
+    .bottom-half p{
+        font-size: 12px;
+        letter-spacing: 0.01em;
+        font-family:'Montserrat';
+    }
+
+    .subscribe #subcribe-input{
+        
+        padding: 10px 10px;
+        border-radius: 30px;
+    }
+
+  
 }
 /*End of Footer*/

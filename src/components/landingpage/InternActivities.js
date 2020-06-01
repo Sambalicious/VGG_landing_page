@@ -7,7 +7,7 @@ const InternActivities = () => {
         <div>
             <div className="row activies-row">
                 <div className="col-lg-6">
-                    <h2 className="learn-and-fun">You <span className="green">learn</span><br/> and have <span className="orange d-block">fun</span></h2>
+                    <h2 className="learn-and-fun">You <span className="green">learn</span><br/> and have <span className="orange">fun</span></h2>
                 </div>
                 <div className="col-lg-6">
                     <p className="pt-3 work-n-play">You know what they say about all work and <br/> no play. Well, we hold that to high esteem</p>
