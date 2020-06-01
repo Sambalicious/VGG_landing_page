@@ -8,7 +8,7 @@ const Introduction = () => {
             <div className="intro">
                 
                    <div>
-                   
+                   <Particles />
             <div className="row intro-row">
                 <div className="col-lg-6">
                     <div className="intro-text">

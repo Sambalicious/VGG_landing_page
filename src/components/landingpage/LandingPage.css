@@ -96,6 +96,13 @@ html, *{
 }
 .intro>div{
     width:100%;
+   position: absolute;
+   
+}
+.intro-row{
+    position: absolute;
+    top: 10rem;
+    
 }
 .intro-text>div{
     letter-spacing: 0.175rem;
@@ -135,6 +142,7 @@ html, *{
         flex-direction: column-reverse!important;
         justify-content: center;
         padding: 2rem;
+       
     }
     .intro-text>div{
         text-align: center;
@@ -165,6 +173,11 @@ html, *{
     intro-text>div{
         letter-spacing: normal;
         padding: 2rem;
+    }
+    .intro-row{
+        position: absolute;
+        top: -18rem;
+        
     }
     intro-text h1{
         letter-spacing: normal;
