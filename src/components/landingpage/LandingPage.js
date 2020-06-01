@@ -5,7 +5,7 @@ import Introduction from './Introduction';
 import InternActivities from './InternActivities';
 import InternshipTracks from './InternshipTracks';
 import Instructors from './Instructors';
-import {InstructorCarousel}  from './InstructorCarousel';
+import InstructorCarousel  from './InstructorCarousel';
 import Footer from './Footer';
 
 
@@ -18,6 +18,8 @@ const LandingPage = () => {
             <InternActivities />
             <InternshipTracks />
             <Instructors />
+
+            
            
             <Footer />
         </div>

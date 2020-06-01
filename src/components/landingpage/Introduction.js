@@ -1,13 +1,18 @@
-import React from 'react'
+import React from 'react';
+import Particles from 'react-particles-js';
 
 const Introduction = () => {
     return (
+        <>
         
             <div className="intro">
+                
                    <div>
+                   
             <div className="row intro-row">
                 <div className="col-lg-6">
                     <div className="intro-text">
+                   
                         <div className="mx-xs-auto mx-lg-0">
                             <h1>VGG Virtual <br/> Internship</h1>
                             <p>The VGG Virtual Internship is a <br className="big"/>
@@ -24,10 +29,11 @@ const Introduction = () => {
                     </div>
                 </div>
             </div>
+           
         </div>
-                </div>
-        
-   
+        </div>
+       
+        </>
         
     )
 }
