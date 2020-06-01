@@ -241,6 +241,7 @@ p.text-monospace{
     border: 1px solid rgba(255, 255, 255, 0.3);
     box-sizing: border-box;
     border-radius: 5px;
+    display: flex;
 }
 
 .media-body h5{
