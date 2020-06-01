@@ -241,10 +241,17 @@ p.text-monospace{
 
 @media screen and (max-width:650px){
     .activities{
-        padding: 10px 40px 10px;
+        padding: 10px 45px 10px;
     }
     .col-lg-6.pix{
-        margin-top: 12px;
+        margin-top: 16px;
+    }
+    .activities h2{
+        margin-top: 1rem;
+    }
+
+    .learning-pics img{
+        height: 150px;
     }
 }
 /* End of Activities Section */
@@ -281,6 +288,19 @@ p.text-monospace{
         margin-bottom: 0px;
     }
 }
+
+@media screen and (max-width:650px){
+    .tracks {
+        padding: 30px 50px
+    }
+
+    .tracks .green-text{
+        font-weight: 500;
+        font-size: 40px;
+    }
+}
+
+
 /* End of Tracks */
 
 /* Start of Instructors*/

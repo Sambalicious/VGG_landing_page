@@ -6,7 +6,7 @@ import './LandingPage.css';
 const Tracks = () => {
     return (
         <div className="background">
-            <div className=" styles">
+            <div className="green-text">
                <h2>Internship Tracks<br/>
                and Technologies</h2>
             </div>

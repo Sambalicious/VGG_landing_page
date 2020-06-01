@@ -5,7 +5,7 @@ const InternshipTracks = () => {
     return (
         <div>
               <div className="tracks">
-        <h2 className="mb-5 green-text styles">Internship Tracks <br /> and Technologies</h2>
+        <h2 className="mb-5 green-text">Internship Tracks <br /> and Technologies</h2>
         <div className="row first">
 
         <InternshipTrackDetails 

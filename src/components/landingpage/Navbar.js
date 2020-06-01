@@ -8,7 +8,7 @@ import { Nav, Navbar} from "react-bootstrap";
   return (
     <Navbar collapseOnSelect expand="lg" className="background">
       <Navbar.Brand href="/">
-      <img  style={{width:"200px"}} src="https://res.cloudinary.com/dev-sam/image/upload/v1590685777/we7l1ttvgs6btbvuilvt.png" alt="logo" />
+      <img  style={{width:"200px", textAlign: "center"}}  src="https://res.cloudinary.com/dev-sam/image/upload/v1590685777/we7l1ttvgs6btbvuilvt.png" alt="logo" />
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
