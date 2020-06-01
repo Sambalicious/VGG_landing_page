@@ -4,12 +4,14 @@
 }
 
 .text{
-    
+    margin-top: 1rem;
+    padding-top: 2rem;
     font-weight: 800;
     line-height: 19px;
     letter-spacing: 0.05rem;
     margin-right: 20px;
     margin-bottom: 1rem;
+    font-family: 'Nunito';
 }
 
 .text:hover{
@@ -92,15 +94,24 @@ html, *{
     display: flex;
     align-items: center;
     padding: 0px 125px 0px;
-    height: 95vh
+    height: 95vh;
+    justify-content: space-between;
 }
 .intro>div{
     width:100%;
+   position: absolute;
+   
+}
+.intro-row{
+    position: absolute;
+    top: 10rem;
+    
 }
 .intro-text>div{
     letter-spacing: 0.175rem;
     padding: 2rem;
     font-family: 'Montserrat';
+    
 }
 .small{
     display: none;
@@ -118,15 +129,17 @@ html, *{
 
 .illustration-parent{
     display: flex;
-    justify-content: flex-start;
+    justify-content: flex-end;
     align-items: flex-start;
+    position: relative;
+    left: 12rem;
 }
 .illustration-parent>div{
-    height: 200px;
+    height: 300px;
 }
 .illustration-parent img{
     width: 450px;
-    height: 300px;
+    height: 350px;
 }
 
 @media screen and (max-width:992px){
@@ -135,6 +148,7 @@ html, *{
         flex-direction: column-reverse!important;
         justify-content: center;
         padding: 2rem;
+       
     }
     .intro-text>div{
         text-align: center;
@@ -166,6 +180,11 @@ html, *{
         letter-spacing: normal;
         padding: 2rem;
     }
+    .intro-row{
+        position: absolute;
+        top: -18rem;
+        
+    }
     intro-text h1{
         letter-spacing: normal;
         font-weight: 900;
@@ -180,6 +199,14 @@ html, *{
     }
  .intro{
         padding: 60px 0px 80px;
+    }
+
+    .illustration-parent{
+        justify-content: center;
+         margin-bottom: -4rem;
+        position: relative;
+        left:0rem;
+
     }
     
 }
@@ -205,12 +232,17 @@ p.text-monospace{
     margin-top: -100px;
 }
 .media{
-    border: 2px solid rgba(255, 255, 255, 0.3);
+    border: 1px solid #E0E0E0;
     box-sizing: border-box;
     border-radius: 5px;
-    
 }
 
+.media-2{
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+    border-radius: 5px;
+    display: flex;
+}
 
 .media-body h5{
     font-weight: bold;
@@ -374,6 +406,13 @@ p.text-monospace{
 .instructors .item{
     position: relative;
     max-width: 100%!important;
+}
+.instructor-text{
+    
+    letter-spacing: -0.025em;
+    font-size: 16px;
+    line-height: 16px;
+    color: #C4C4C4;
 }
 
 .instructors .vector{

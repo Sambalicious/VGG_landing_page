@@ -8,7 +8,7 @@ const InstructorDetails = ({InstructorName, InstructorTrack, InstructorImage}) =
                 <img className="tutor" src={InstructorImage} alt={InstructorName} />
                 <div style={{textAlign:"center"}}>
                     <h5>{InstructorName}</h5>
-                    <p className="text-secondary">{InstructorTrack} </p>
+                    <p className="instructor-text">{InstructorTrack} </p>
                 </div>
             </div>
         </>
