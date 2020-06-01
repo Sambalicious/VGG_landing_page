@@ -4,7 +4,7 @@
 }
 
 .text{
-    font-family: Nunito;
+    
     font-weight: 800;
     line-height: 19px;
     letter-spacing: 0.05rem;
@@ -37,6 +37,9 @@
 
 body{
     font-family: 'Montserrat';
+    width: 100%;
+    overflow-x: hidden;
+
 }
 
 
@@ -473,9 +476,13 @@ footer{
         font-weight: bold;
         line-height: 28px;
     }
+    .social-mail{
+        display: flex;
+        margin-right: 4rem;
+    }
     .bottom-half{
-        padding-left: 20px;
-        padding-right: 30px;
+        padding-left: 10px;
+        padding-right: 20px;
         margin-top: 4rem;
     }
 
@@ -488,6 +495,7 @@ footer{
     .footer-text{
         font-size:12px;
         letter-spacing: 0.01em;
+        display: flex;
     }
 
     .subscribe #subcribe-input{

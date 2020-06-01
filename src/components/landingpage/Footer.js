@@ -27,7 +27,7 @@ const Footer = () => {
         </div>
         <hr/>
         <div className="row footer-text">
-            <span className="mr-4">
+            <span>
             <div className="mt-4 col-md-6 social-mail">
                 <img src="https://i.ibb.co/d4QfZTQ/social-mail.png" alt="social-mail" border="0"/>
                 <small>vgg@venturegardengroup.com</small>
