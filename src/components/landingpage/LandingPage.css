@@ -37,9 +37,8 @@
 
 body{
     font-family: 'Montserrat';
-    width: 100%;
+    width: 100vw;
     overflow-x: hidden;
-
 }
 
 
@@ -163,6 +162,7 @@ body{
 }
 
 @media screen and (max-width:650px){
+   
     intro-text>div{
         letter-spacing: normal;
         padding: 2rem;
