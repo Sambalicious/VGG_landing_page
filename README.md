@@ -1,3 +1,10 @@
+
+This project was based on these design to help me harness my frontend skills
+<img src="https://res.cloudinary.com/dev-sam/image/upload/v1591864536/gfmgt9e7rtsist3ywhcf.png" alt="desktop_view">
+
+<img src="https://res.cloudinary.com/dev-sam/image/upload/v1591864529/w30jftnmysspogfvmhlc.png" alt="mobile_view">
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
